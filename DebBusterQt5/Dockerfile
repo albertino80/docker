@@ -4,7 +4,7 @@ FROM debian:buster-slim
 # Set the working directory to /app
 WORKDIR /app
 
-# Install any needed packages specified in requirements.txt
+# Install any needed packages
 RUN apt-get -y update
 RUN apt-get -y install build-essential module-assistant
 RUN apt-get -y install git
